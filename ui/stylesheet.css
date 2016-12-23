@@ -1,0 +1,52 @@
+h1{
+font-size:4em;
+	width: 35%;
+	margin-top: 5px;
+	font-family: georgia;
+	display: inline-block;
+}
+body{
+background-color:#eee;
+}
+p{
+width:60%;
+font-family:Comic sans MS;
+}
+#content{
+width:60%;
+background-color:white;
+	margin: 30px 0;
+	background: white;
+	padding: 20px;
+	clear: both;
+}
+#cc{
+display: inline-block;
+height:62px;
+}
+#cc a{
+border-radius:2px;
+background-color:blue;
+border:2px solid black;
+padding:20px;
+color:red;
+text-decoration:none;
+}
+#cc a:hover{
+background:#0000A0;
+color:black;
+box-shadow: 0px 1px 1px #666;
+}
+#cc a:active{
+background:#FF0000;
+color:blue;
+}
+#footer{
+background:red;
+color:black;
+	border-bottom: 1px #ccc solid;
+	margin-bottom: 10px;
+}
+#red{
+color:red;
+}
