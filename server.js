@@ -15,12 +15,16 @@ app.get('/contact', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'contact.html'));
 });
 
-app.get('/Calculator', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'Calculator.html'));
+app.get('/calculator', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'calculator.html'));
 });
 
 app.get('/stylesheet.css', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'stylesheet.css'));
+});
+
+app.get('/style.css', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'style.css'));
 });
 
 app.get('/script.js', function (req, res) {
