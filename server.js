@@ -9,15 +9,15 @@ app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'my first webpage.html'));
 });
 
-app.get('/', function (req, res) {
+app.get('/about', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'about.html'));
 });
 
-app.get('/', function (req, res) {
+app.get('contact/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'contact.html'));
 });
 
-app.get('/', function (req, res) {
+app.get('/Calculator', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'Calculator.html'));
 });
 
@@ -32,5 +32,5 @@ app.get('/ui/script.js', function (req, res) {
 
 var port = 8080; 
 app.listen(8080, function () {
-  console.log(`Scrutz listening on port ${port}!`);
+  console.log('Scrutz listening on port '+port);
 });
