@@ -29,6 +29,6 @@ app.get('/script.js', function (req, res) {
 
 
 var port = process.env.PORT ||  8080; 
-app.listen(8080, function () {
+app.listen(port, function () {
   console.log('Scrutz listening on port '+port);
 });
