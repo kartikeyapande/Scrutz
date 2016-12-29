@@ -16,7 +16,7 @@ app.get('/contact', function (req, res) {
 });
 
 app.get('/calculator', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'calculator.html'));
+  res.sendFile(path.join(__dirname, 'ui', 'Calculator.html'));
 });
 
 app.get('/stylesheet.css', function (req, res) {
