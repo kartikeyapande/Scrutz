@@ -1,3 +1,5 @@
+//Calculator Script version 2.0
+
 $(document).ready(function(){
 	var testNumLength = function(number) {
         if (number.length > 9) {
@@ -37,9 +39,9 @@ $(document).ready(function(){
     		number = (parseFloat(number, 10) + parseFloat(newnumber,10)).toString(10);
     	} else if (operator === "-"){
     		number = (parseFloat(newnumber, 10) - parseFloat(number,10)).toString(10);
-    	} else if (operator === "÷"){
+    	} else if (operator === "/"){
     		number = (parseFloat(newnumber, 10) / parseFloat(number,10)).toString(10);
-    	} else if (operator === "×"){
+    	} else if (operator === "X"){
     		number = (parseFloat(newnumber, 10) * parseFloat(number,10)).toString(10);
     	}
     	totaldiv.text(number);
